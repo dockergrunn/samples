@@ -11,8 +11,8 @@ Examples included in this folder.
 See .profile-example for the mentioned aliases on slide 7.
 
 ## Buckets CMS
-Some reference to Bucket CMS in Docker was made in the first Fig & Crane-slide (slide 10).  
-You can find the repository [here](https://registry.hub.docker.com/u/hbokh/docker-buckets-cms/)
+A reference to Buckets CMS in Docker was made in the first Fig & Crane-slide (slide 10).  
+You can find the specific repository [here](https://registry.hub.docker.com/u/hbokh/docker-buckets-cms/)
 
 ## My JIRA sample  
 Off topic, but I also "fiddled about" with JIRA and Docker.  
