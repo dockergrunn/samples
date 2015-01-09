@@ -12,12 +12,12 @@ gitlab:
   image: sameersbn/gitlab:latest
   environment:
     - SMTP_ENABLED=true
-    - SMTP_DOMAIN=tfe.nl
-    - SMTP_HOST=smtp.tfe.nl
+    - SMTP_DOMAIN=example.nl
+    - SMTP_HOST=smtp.example.nl
     - SMTP_OPENSSL_VERIFY_MODE=none
-    - GITLAB_EMAIL=noreply@tfe.nl
+    - GITLAB_EMAIL=noreply@example.nl
     - GITLAB_SIGNUP=true
-    - GITLAB_HOST=gitlab.int.tfe.nl
+    - GITLAB_HOST=gitlab.example.nl
     - GITLAB_PORT=80
     - GITLAB_SSH_PORT=10022
   links:
