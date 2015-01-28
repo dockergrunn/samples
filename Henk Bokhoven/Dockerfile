@@ -7,7 +7,7 @@ ENV TYPO3_VERSION 6.2.9
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E5267A6C  && \
     echo "deb http://ppa.launchpad.net/ondrej/php5/ubuntu $(lsb_release -cs) main" \
-       > /etc/apt/sources.list.d/launchpad-ondrej-php5.list
+    > /etc/apt/sources.list.d/launchpad-ondrej-php5.list
 
 RUN apt-get update -qq && \
     apt-get install -qqy wget unzip nginx mysql-client php5 php5-cli php5-common php5-curl php5-fpm php5-gd php5-imagick php5-mcrypt php5-memcache php5-mysql graphicsmagick && \
