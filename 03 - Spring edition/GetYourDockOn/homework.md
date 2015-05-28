@@ -1,4 +1,4 @@
-![Docker Grunn](full_6650351.jpeg)
+![Docker Grunn](http://photos3.meetupstatic.com/photos/theme_head/c/4/a/f/full_6650351.jpeg)
 
 # Docker Grunn meetup, woensdag 27 mei
 
