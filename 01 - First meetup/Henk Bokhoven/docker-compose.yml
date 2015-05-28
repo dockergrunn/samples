@@ -1,0 +1,31 @@
+postgresql:
+  image: sameersbn/postgresql:latest
+  environment:
+    - DB_USER=gitlab
+    - DB_PASS=p4ssw0rd
+    - DB_NAME=gitlabhq_test
+  volumes:
+    - /opt/postgresql/data:/var/lib/postgresql
+redis:
+  image: sameersbn/redis:latest
+gitlab:
+  image: sameersbn/gitlab:latest
+  environment:
+    - SMTP_ENABLED=true
+    - SMTP_DOMAIN=example.nl
+    - SMTP_HOST=smtp.example.nl
+    - SMTP_OPENSSL_VERIFY_MODE=none
+    - GITLAB_EMAIL=noreply@example.nl
+    - GITLAB_SIGNUP=true
+    - GITLAB_HOST=gitlab.example.nl
+    - GITLAB_PORT=80
+    - GITLAB_SSH_PORT=10022
+  links:
+    - redis:redisio
+    - postgresql:postgresql
+  volumes:
+    - /opt/gitlab/data:/home/git/data
+  ports:
+    - "80:80"
+    - "10022:22"
+
