@@ -1,4 +1,4 @@
-![Docker Grunn](header.jpeg)
+![Docker Grunn](full_6650351.jpeg)
 
 # Docker Grunn meetup, woensdag 27 mei
 
@@ -29,7 +29,7 @@ $ chmod +x /usr/local/bin/docker-compose
 
 ### **DRINGEND ADVIES**
 
-De WiFi-bandbreedte bij TFE is niet om te juichen, helaas.  Zie [deze afbeelding](TFE_wifi_2015-05-22-161244.png)!  
+De WiFi-bandbreedte bij TFE is niet om te juichen, helaas.  
 Dus... om snel aan de slag te kunnen i.p.v. lang te wachten (omdat iedereen tegelijkertijd over WiFi wil downloaden), is het advies om alvast de Docker-images voor WordPress en MySQL te downloaden:
 
 - `$ wget https://uploads.tfe.nl/dckrgrnn/mysql.tar.gz` (size: 142 MB)
