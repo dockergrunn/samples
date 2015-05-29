@@ -15,7 +15,7 @@ Referentie: [Guide to Docker on OS X](http://blog.tutum.co/2015/05/19/guide-to-d
 
 Of Docker juist werkt, kan je vervolgens testen met `docker run --rm hello-world`.
 
-- **Docker Compose ** ([link](http://docs.docker.com/compose/install/)):  
+- **Docker Compose** ([link](http://docs.docker.com/compose/install/)):  
 
 De installatie werkt zo:
 
