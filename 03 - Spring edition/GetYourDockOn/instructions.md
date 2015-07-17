@@ -35,8 +35,8 @@ Om bandbreedte te besparen heeft de eerste methode de voorkeur!
 
 Dit zijn images uit de officiele Docker Registry, *saved to a tar archive*, gzipped en op een host geplaatst, die relatief dichtbij is.
 
-- `$ wget https://uploads.tfe.nl/dckrgrnn/mysql.tar.gz` (size: 142 MB)  
-- `$ wget https://uploads.tfe.nl/dckrgrnn/wordpress.tar.gz` (size: 163 MB)
+- `$ wget https://example.com/dckrgrnn/mysql.tar.gz` (size: 142 MB)  
+- `$ wget https://example.com/dckrgrnn/wordpress.tar.gz` (size: 163 MB)
 
 Importeer deze images:
 
