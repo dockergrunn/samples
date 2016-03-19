@@ -2,7 +2,7 @@
 
 ## Date and location
 
-Wednsesday October 21st 2015 at TKP Pensioen
+Wednesday October 21st 2015 at TKP Pensioen
 
 ### Slides Bart
 
