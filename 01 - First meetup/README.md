@@ -1,6 +1,6 @@
 #  Fisrt DockerGrunn iMeetup
 
-## Location
+## Date and location
 
 Thursday January 8th at Mediacentrale / Peperzaken
 

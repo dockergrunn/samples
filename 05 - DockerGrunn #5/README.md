@@ -1,8 +1,8 @@
 # Docker Grunn #5
 
-## Location
+## Date and location
 
-Wednesday March 2nd, 2016 at Belsimpel
+Wednesday March 2nd 2016 at Belsimpel
 
 ### Presentations
 

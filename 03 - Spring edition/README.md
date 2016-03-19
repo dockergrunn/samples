@@ -1,6 +1,6 @@
 # Docker Grunn Spring edition
 
-## Location
+## Date and location
 
 Wednesday May 27th 2015 at theFactor.e
 

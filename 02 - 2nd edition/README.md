@@ -1,6 +1,6 @@
 # Docker Grunn 2nd edition
 
-## Location
+## Date and location
 
 Tuesday March 3rd 2016 at Hackerone
 
