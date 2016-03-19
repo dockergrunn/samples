@@ -1,5 +1,11 @@
 # Docker Grunn 2nd edition
 
+## Location
+
+Tuesday March 3rd 2016 at Hackerone
+
+### Samples
+
 No samples, just presentations.
 
 * [Docker at Moneybird](http://www.slideshare.net/edwinvl/docker-at-moneybirdb)
