@@ -1,0 +1,98 @@
+# This file lists the docker configuration for 3 containers:
+# 1: the mysql database
+# 2: the redis cache
+# 3: the web app
+# 4: sentry (disabled by default)
+
+version: '2'
+services:
+  db:
+    build: Dockers/db
+    environment:
+     - MYSQL_USER=admin
+     - MYSQL_PASS=admin
+     - TERM
+    ports:
+     - 3301:3306
+
+  redis:
+    environment:
+     - TERM
+    image: redis:2.8
+    ports:
+      - 6371:6379
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    environment:
+     - TERM
+     - DB_PORT_3306_TCP_ADDR=db
+     - DB_PORT_3306_TCP_PORT=3306
+     - REDIS_PORT_6379_TCP_ADDR=redis
+    links:
+      - db
+      - redis
+      # - sentry
+    ports:
+      - 8001:8000
+    volumes:
+      - .:/srv/django-projects/voipgrid/
+      # Enable X forwarding, used for browser tests.
+      - /tmp/.X11-unix:/tmp/.X11-unix/:ro
+
+  baseimage:
+      build: Dockers/voipgridbaseimage
+      links:
+        - db
+
+  opensips:
+      build: Dockers/opensips
+      links:
+        - db
+      depends_on:
+        - baseimage
+
+  opensipsfg:
+      build: Dockers/opensips-fg
+      depends_on:
+        - opensips
+      links:
+        - db
+      ports:
+       - 5060:5060
+       - 5060:5060/udp
+       - 6060:6060
+       - 6060:6060/udp
+
+  opensipsbg:
+      build: Dockers/opensips-bg
+      depends_on:
+        - opensips
+      links:
+        - db
+
+  asterisk:
+      build: Dockers/asterisk
+      links:
+        - db
+      depends_on:
+        - baseimage
+        - opensipsfg
+      environment:
+        - DB_PORT_3306_TCP_ADDR=db
+        - DB_PORT_3306_TCP_PORT=3306
+
+# If you start Sentry, it will initialize with an empty password for user
+# 'sentry'. You can change this password with the following command:
+# docker exec -it voipgrid_sentry_1 sentry changepassword sentry
+#
+# Note: Sentry should only be started as a linked service from web.
+# (So you should just uncomment the 'sentry' entry in 'links').
+
+# sentry:
+#   build: Dockers/sentry
+#   links:
+#     - redis
+#   ports:
+#     - 9001:9000
