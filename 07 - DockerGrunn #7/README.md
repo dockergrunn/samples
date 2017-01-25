@@ -2,7 +2,7 @@
 
 ## Date and location
 
-Wednesday January 2017 at TNO Groningen
+Wednesday January 18th 2017 at TNO Groningen
 
 ### Presentations
 
