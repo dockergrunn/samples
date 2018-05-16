@@ -2,7 +2,11 @@
 
 ## Date and location
 
-Tuesday March 3rd 2016 at Hackerone
+Tuesday March 3rd 2015.
+
+### Sponsors
+
+* [Hackerone](https://www.hackerone.com/)
 
 ### Presentations
 

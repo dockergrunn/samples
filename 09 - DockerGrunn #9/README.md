@@ -6,8 +6,12 @@
 
 Wednesday February 28th 2018 at [Center for Information Technology](https://www.rug.nl/society-business/centre-for-information-technology/), University of Groningen (RUG).
 
+### Sponsors
+
+* [RUG](https://www.rug.nl/) - RijksUniversiteit Groningen
+
 ### Presentations
 
-- Harm Vos - Webhosting & Docker RUG
-- Bob Dröge - [Containers in HPC](https://github.com/dockergrunn/samples/blob/master/09%20-%20DockerGrunn%20%239/Containers%20in%20HPC.pdf)
-- Egon Rijpkema - [Building an Openstack cluster without clustering](https://github.com/dockergrunn/samples/blob/master/09%20-%20DockerGrunn%20%239/Automated%20deployment%20HPC%20Openstack.pdf)
+* Harm Vos - Webhosting & Docker RUG
+* Bob Dröge - [Containers in HPC](https://github.com/dockergrunn/samples/blob/master/09%20-%20DockerGrunn%20%239/Containers%20in%20HPC.pdf)
+* Egon Rijpkema - [Building an Openstack cluster without clustering](https://github.com/dockergrunn/samples/blob/master/09%20-%20DockerGrunn%20%239/Automated%20deployment%20HPC%20Openstack.pdf)

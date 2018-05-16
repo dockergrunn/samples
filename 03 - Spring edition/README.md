@@ -2,11 +2,15 @@
 
 ## Date and location
 
-Wednesday May 27th 2015 at theFactor.e (TFE)
+Wednesday May 27th 2015 at theFactor.e (TFE).
+
+### Sponsors
+
+* [theFactor.e](https://tfe.nl)
 
 ### Presentations
 
-- Joshua: [DockerGrunn 5th edition](https://github.com/dockergrunn/samples/tree/master/05%20-%20DockerGrunn%20%235)
-- Jurjan: [Wehkamplabs](https://speakerdeck.com/wehkamplabs)
+* Joshua: [DockerGrunn 5th edition](https://github.com/dockergrunn/samples/tree/master/05%20-%20DockerGrunn%20%235)
+* Jurjan: [Wehkamplabs](https://speakerdeck.com/wehkamplabs)
 
 Hands-on: see specific folder.

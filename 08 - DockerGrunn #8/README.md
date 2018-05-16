@@ -4,7 +4,7 @@
 
 Monday April 10th 2017 at Mediacentrale Groningen
 
-## Sponsors
+### Sponsors
 
 - [Recras](https://www.recras.nl/)
 - [OSSO bv](https://www.osso.nl/)
